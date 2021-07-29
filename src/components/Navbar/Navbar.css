@@ -1,0 +1,73 @@
+header {
+    height: 70px;
+}
+
+.nav_logo h3 {
+    margin: 0;
+    color: goldenrod;
+    font-family: cursive;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 3px 2px rgb(182, 159, 31);
+}
+
+.nav_bar {
+    background-color: white;
+    box-shadow: 2px 5px 25px -5px gold;
+}
+
+.nav_menu ul {
+    list-style: none;
+    margin: 0;
+}
+
+.nav_menu li a {
+    text-decoration: none;
+    font-size: 17px;
+    letter-spacing: 1px;
+    padding-right: 20px;
+    padding-bottom: 2px;
+    font-weight: 700;
+    color: goldenrod;
+    position: relative;
+}
+
+.nav_menu li a:before {
+    content: "";
+    position: absolute;
+    top: 80%;
+    left: 0%;
+    width: 0;
+    height: 2px;
+    border-bottom: 2px solid goldenrod;
+    transition: all 0.4s linear;
+}
+
+.nav_menu li a:hover:before {
+    width: 74%;
+}
+
+@media (max-width: 768px) {
+    .nav_menu li:hover:before {
+        width: 10%;
+    }
+}
+
+.nav_btn {
+    color: goldenrod;
+}
+
+.nav_btn span {
+    font-size: 25px;
+    padding: 2px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px -1px goldenrod;
+}
+
+/* for small screen */
+
+@media screen and (max-width: 768px) {
+    .nav_menu li {
+        margin: 10px 6px;
+    }
+}
