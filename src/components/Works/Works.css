@@ -1,0 +1,27 @@
+.works_section {
+    width: 100%;
+    margin-bottom: 150px;
+    box-shadow: 3px 3px 20px goldenrod;
+    padding: 40px 0;
+}
+
+.works_section h2 {
+    text-align: center;
+    color: goldenrod;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.works_section p{
+    color: #2e2102;
+    font-family: cursive;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+    .all_works {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}

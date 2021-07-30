@@ -1,0 +1,20 @@
+.skills_section {
+    margin-bottom: 150px;
+    box-shadow: 3px 3px 20px goldenrod;
+    padding: 40px 0;
+}
+
+.skills_section h2 {
+    text-align: center;
+    color: goldenrod;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+@media screen and (min-width: 768px) {
+    .all_skills {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}

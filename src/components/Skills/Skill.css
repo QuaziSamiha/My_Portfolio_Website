@@ -1,0 +1,33 @@
+.skill_info {
+    margin: 6% 10%;
+    padding: 10px;
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px -2px goldenrod;
+}
+
+.skill_info h5, p {
+    text-align: center;
+}
+
+.skill_info h5 {
+    color: #2e2101;
+    font-weight: 700;
+}
+
+.skill_info p {
+    color: #9e7307;
+    font-weight: 500;
+}
+
+.skill_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill_img img {
+    height: 65px;
+    width: 80px;
+    margin: 10px 0px;
+}
