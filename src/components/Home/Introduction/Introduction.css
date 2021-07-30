@@ -1,0 +1,70 @@
+.intro_text h1 {
+    color: #2e2101;
+}
+
+.intro_text h4 {
+    color: #584002;
+    margin-bottom: 20px;
+}
+
+.intro_text .hello {
+    position: relative;
+}
+
+.intro_text .hello:after {
+    content: "";
+    height: 3px;
+    position: absolute;
+    top: 60%;
+    left: 99%;
+    background-color: #2e2101;
+}
+
+.cv_btn {
+    border: 1px solid goldenrod;
+    border-radius: 6px;
+    margin-left: 40%;
+    padding: 8px 15px;
+    background-image: linear-gradient( goldenrod 60%, rgb(199, 154, 39) 40%);
+}
+
+.cv_btn a {
+    color: #2e2101;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.cv_btn:hover {
+    box-shadow: 1px 1px 5px goldenrod;
+}
+
+.cv_btn a:hover{
+    color: #2e2101;
+    font-family: cursive;
+}
+
+/* for small screen (less than 768px) */
+
+@media screen and (max-width: 768px) {
+    .intro_text {
+        margin-bottom: 250px;
+    }
+    .intro_text h1, h4 {
+        margin-left: 23%;
+    }
+    .intro_text .hello:after {
+        width: 150px;
+    }
+}
+
+/* for large screen (768px to 1440px */
+
+@media screen and (min-width: 769px) {
+    .intro_text {
+        margin-left: 18%;
+    }
+    .intro_text .hello:after {
+        width: 220px;
+    }
+}

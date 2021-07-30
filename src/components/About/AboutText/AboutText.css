@@ -1,0 +1,15 @@
+.about_area{
+    margin-right: 30px;
+}
+.about_text{
+    margin: 20%;
+    padding: 50xp 30px;
+}
+
+.about_text h4{
+    text-align: left;
+}
+
+.about_text p{
+    text-align: justify;
+}

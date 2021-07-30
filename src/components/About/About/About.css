@@ -1,0 +1,23 @@
+.about_section {
+    /* margin-top: 300px; */
+    height: 400px;
+}
+
+
+/* for small screen (less than 768px) */
+@media screen {
+    .about_section{
+        margin: 500px 0px;
+    }
+}
+
+/* for large screen (768px to 1440px) */
+
+@media screen and (min-width: 768px) {
+    .about_section{
+        margin: 150px 0px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}

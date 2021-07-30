@@ -1,7 +1,7 @@
 import './App.css';
-import About from './components/About/About';
+import About from './components/About/About/About';
 import Contact from './components/Contact/Contact';
-import Home from './components/Home/Home';
+import Home from './components/Home/Home/Home';
 import Navbar from './components/Navbar/Navbar';
 import Skills from './components/Skills/Skills';
 import Works from './components/Works/Works';
