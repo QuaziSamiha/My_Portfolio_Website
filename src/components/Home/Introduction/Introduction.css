@@ -25,7 +25,7 @@
     border-radius: 6px;
     margin-left: 40%;
     padding: 8px 15px;
-    background-image: linear-gradient( goldenrod 60%, rgb(199, 154, 39) 40%);
+    background-image: linear-gradient( goldenrod 60%, #c79a27 40%);
 }
 
 .cv_btn a {

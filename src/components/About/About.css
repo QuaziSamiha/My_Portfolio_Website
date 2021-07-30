@@ -1,0 +1,52 @@
+.about_img {
+    margin: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_div img {
+    height: 250px;
+    width: 150px;
+    border: 1px solid goldenrod;
+    border-radius: 20px;
+}
+
+.about_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_div {
+    margin: 20%;
+}
+
+.text_div h4 {
+    color: goldenrod;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.text_div p {
+    text-align: justify;
+    color: #ad841c;
+}
+
+/* for small screen (less than 768px) */
+
+@media screen and (max-width: 768px) {
+    .about_section {
+        margin-top: 500px;
+    }
+}
+
+/* for large screen (768px to 1440px) */
+
+@media screen and (min-width: 768px) {
+    .about_section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
