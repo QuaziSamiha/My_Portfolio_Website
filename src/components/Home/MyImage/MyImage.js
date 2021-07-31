@@ -1,6 +1,6 @@
 import React from 'react';
 import './MyImage.css';
-import proPic from '../../../images/propic3.png'
+import proPic from '../../../images/intro3.png';
 // import proPic from '../../../images/'
 
 const MyImage = () => {
