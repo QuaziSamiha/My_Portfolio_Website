@@ -1,0 +1,29 @@
+.contact_section {
+    margin-top: 100px;
+    padding-bottom: 60px;
+    box-shadow: 0 0 20px #e9dbbb;
+}
+
+.contact_section h2 {
+    text-align: center;
+    color: goldenrod;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 50px 0;
+}
+
+.social_media, .contact_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* for large screen */
+
+@media screen and (min-width: 768px) {
+    .contact_section .contact_area {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}

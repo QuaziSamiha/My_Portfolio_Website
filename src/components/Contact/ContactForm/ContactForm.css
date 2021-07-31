@@ -1,0 +1,68 @@
+.message_div {
+    width: 400px;
+    height: auto;
+    padding: 10px 5px;
+}
+
+.message_div h4 {
+    color: goldenrod;
+    font-size: 30px;
+}
+
+.form_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 0 15px;
+    border: 2px solid goldenrod;
+    box-shadow: 4px 4px 15px -3px goldenrod;
+    border-radius: 10px;
+}
+
+.form_div form input {
+    color: #493501;
+    font-weight: 500;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid goldenrod;
+    margin-top: 20px;
+}
+
+.form_div form textarea {
+    color: #493501;
+    font-weight: 500;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid goldenrod;
+    outline: none;
+}
+
+.form_div form button {
+    color: #2e2101;
+    font-size: 20px;
+    font-weight: 700;
+    width: 100%;
+    margin: 20px 0;
+    border: 1px solid goldenrod;
+    border-radius: 6px;
+    padding: 8px 15px;
+    background-image: linear-gradient( goldenrod 60%, #c79a27 40%);
+}
+
+/* for large screen */
+
+@media screen and (min-width: 768px) {
+    .message_div h4 {
+        text-align: center;
+    }
+    .message_div {
+        width: 400px;
+        height: auto;
+        /* width: 100%; problem*/
+    }
+}

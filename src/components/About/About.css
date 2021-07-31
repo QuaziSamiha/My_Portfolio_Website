@@ -6,9 +6,9 @@
 }
 
 .img_div img {
-    height: 250px;
-    width: 150px;
-    border: 1px solid goldenrod;
+    height: 400px;
+    width: 500px;
+    /* border: 1px solid goldenrod; */
     border-radius: 20px;
 }
 

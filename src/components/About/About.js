@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
-// import aboutImg from '../../../images/';
-import aboutImage from '../../images/standpic.jpg'
+import aboutImage from '../../images/aboutImage2.jpg';
+// import aboutImage from '../../images/standpic.jpg'
 
 const About = () => {
     return (
