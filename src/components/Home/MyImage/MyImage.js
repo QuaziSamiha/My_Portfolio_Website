@@ -1,13 +1,12 @@
 import React from 'react';
 import './MyImage.css';
-import proPic from '../../../images/intro3.png';
-// import proPic from '../../../images/'
+import proPic from '../../../images/introImage.png';
 
 const MyImage = () => {
     return (
         <div className='intro_image'>
             <div className='img_frame'>
-                <img src={proPic} alt="" />
+                <img className='' src={proPic} alt="" />
             </div>
         </div>
     );

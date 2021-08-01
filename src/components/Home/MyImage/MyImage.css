@@ -5,14 +5,14 @@
 }
 
 .img_frame {
-    margin: 10px 15px;
-    /* border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; */
-    /* background-color: goldenrod; */
+    /* margin: 10px 15px; */
+    border-radius: 52% 48% 55% 45% / 43% 28% 72% 57% ;
+    background-color: goldenrod;
 }
 
 .img_frame img {
-    /* height: 250px; */
-    /* width: 300px; */
+    height: 300px;
+    width: 400px;
 }
 
 @media screen and (min-width: 780px) {

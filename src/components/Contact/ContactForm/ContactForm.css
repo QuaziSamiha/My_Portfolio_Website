@@ -39,6 +39,7 @@
     width: 100%;
     margin-top: 20px;
     border: 1px solid goldenrod;
+    border-radius: 4px;
     outline: none;
 }
 
@@ -52,6 +53,12 @@
     border-radius: 6px;
     padding: 8px 15px;
     background-image: linear-gradient( goldenrod 60%, #c79a27 40%);
+    transition: background-color .5s ease;
+}
+
+.form_div form button:hover {
+    background-image: none;
+    background-color: goldenrod;
 }
 
 /* for large screen */
