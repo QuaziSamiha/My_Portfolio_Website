@@ -13,32 +13,32 @@ const skillsDetail = [
     {
         skillIcon: html,
         skillName: 'HTML',
-        skillDescription: 'Have a good knowledge about HTML and HTML5 tags.'
+        skillDescription: 'I have a good knowledge of HTML and HTML5 tags.'
     },
     {
         skillIcon: css,
         skillName: 'CSS',
-        skillDescription: 'I have learnt CSS and CSS3. I have also learnt Bootstrap as CSS framework . I have done a good number of projects using CSS and Bootstrap.'
+        skillDescription: 'I have learned CSS and CSS3. I have also learned Bootstrap, an open source CSS framework. I have done a good number of projects using CSS and Bootstrap.'
     },
     {
         skillIcon: js,
         skillName: 'JavaScript',
-        skillDescription: 'Have knowledge and experience in JavaScript and ES6.'
+        skillDescription: 'I have a good knowledge and experience in JavaScript and ES6.'
     },
     {
         skillIcon: react,
         skillName: 'ReactJS',
-        skillDescription: 'Have a good experience about ReactJS as a JavaScript library. Almost 7 projects are done using ReactJS. I have also primary level knowledge about React-Bootstrap and MaterialUI for styling ReactJS components'
+        skillDescription: 'I have knowledge of ReactJS as a JavaScript library. I have completed almost 7 projects using ReactJS. I have also a primary level knowledge of React-Bootstrap and MaterialUI for styling ReactJS components'
     },
     {
         skillIcon: node,
         skillName: 'NodeJs',
-        skillDescription: 'I have a primary level knowledge about NodeJS and done 4 projects using NodeJS till now.'
+        skillDescription: 'I have a primary level knowledge of NodeJS and done 4 projects using NodeJS till now.'
     },
     {
         skillIcon: mongo,
         skillName: 'MongoDB',
-        skillDescription: 'Have basic knowledge about MongoDb. 4 projects are done using MongoDB database.'
+        skillDescription: 'I have a basic knowledge about MongoDb. I have done 4 projects using MongoDB database.'
     }
 ]
 
