@@ -1,5 +1,22 @@
 .footer_section{
     margin-top: 150px;
-    height: 55px;
+    height: 50px;
     background-color: goldenrod;
+}
+
+.footer_section h6{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer_section{
+        height: 40px;
+    }
+    .footer_section h6{
+        padding-top: 12px;
+        font-size: 11px;
+    }
 }

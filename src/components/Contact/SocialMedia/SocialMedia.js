@@ -1,6 +1,6 @@
 import React from 'react';
 import './SocialMedia.css';
-// import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import { faFacebookSquare, faGithubSquare, faLinkedin, faWhatsappSquare } from "@fortawesome/free-brands-svg-icons";
@@ -17,7 +17,7 @@ const SocialMedia = () => {
                     </span>
                 </div>
                 <div>
-                    <a href="www.linkedin.com/in/quazi-samiha-tasnim" target="_blank">
+                    <a href="http://www.linkedin.com/in/quazi-samiha-tasnim" target="_blank" rel="noreferrer">
                         LinkedIn
                     </a>
                 </div>
@@ -29,7 +29,7 @@ const SocialMedia = () => {
                     </span>
                 </div>
                 <div>
-                    <a href="https://wa.me/8801728618332" target="_blank">
+                    <a href="https://wa.me/8801728618332" target="_blank" rel="noreferrer">
                         Whatsapp
                     </a>
                 </div>
@@ -41,7 +41,7 @@ const SocialMedia = () => {
                     </span>
                 </div>
                 <div>
-                    <a href="https://www.facebook.com/quazi.samiha.7" target="_blank">
+                    <a href="https://www.facebook.com/quazi.samiha.7" target="_blank" rel="noreferrer">
                         Facebook
                     </a>
                 </div>
