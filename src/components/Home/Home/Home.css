@@ -13,6 +13,12 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+    .home{
+        height: 900px;
+    }
+}
+
 /* for large screen (768px to 1440px */
 
 @media screen and (min-width: 769px) {

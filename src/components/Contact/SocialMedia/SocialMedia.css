@@ -5,14 +5,12 @@
     place-items: center;
     border-radius: 10px;
     box-shadow: 2px 2px 10px #e9dbbb;
-    /* border: 1px solid red; */
 }
 
 .social_media_section h4{
     text-align: center;
     padding: 20px 0;
     color: goldenrod;
-    /* font-size: 25px; */
 }
 
 .contact_icon {
@@ -26,7 +24,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* border: 1px solid blue; */
     margin: 10px 0;
     border-radius: 10px;
     box-shadow: 2px 2px 10px #e9dbbb;
@@ -41,5 +38,11 @@
 @media screen and (max-width: 768px) {
     .social_media_section {
         margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .social_media_section h4{
+        font-size: 20px;
     }
 }

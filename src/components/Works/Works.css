@@ -19,9 +19,23 @@
     font-weight: 500;
 }
 
-@media screen and (min-width: 768px) {
+/* for large screen (laptop) */
+
+@media screen and (min-width: 769px) {
     .all_works {
         display: grid;
         grid-template-columns: auto auto auto;
+    }
+}
+
+/* for less than 400px (small mobile screen) */
+
+@media screen and (max-width: 400px) {
+    .works_section h2 {
+        font-size: 25px;
+    }
+    .works_section p {
+        font-size: 12px;
+        font-weight: 700;
     }
 }

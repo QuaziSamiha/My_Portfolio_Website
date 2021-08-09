@@ -12,9 +12,19 @@
     margin-bottom: 60px;
 }
 
+/* for large screen ( greater than 769px) */
+
 @media screen and (min-width: 768px) {
     .all_skills {
         display: grid;
         grid-template-columns: auto auto auto;
+    }
+}
+
+/* for small mobile  */
+
+@media screen and (max-width: 400px) {
+    .skills_section h2 {
+        font-size: 25px;
     }
 }

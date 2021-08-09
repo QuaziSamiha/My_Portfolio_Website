@@ -21,6 +21,17 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+    .intro_image{
+        top: 630px;
+        left: 15%;
+    }
+    .img_frame img{
+        height: 220px;
+        width: 250px;
+    }
+}
+
 /* for large screen */
 
 @media screen and (min-width: 769px) {

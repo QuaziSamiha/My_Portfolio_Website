@@ -20,10 +20,15 @@
 
 /* for large screen */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
     .contact_section .contact_area {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .contact_section h2{
+        font-size: 25px;
     }
 }

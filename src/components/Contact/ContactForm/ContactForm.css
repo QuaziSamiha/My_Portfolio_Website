@@ -70,6 +70,20 @@
     .message_div {
         width: 400px;
         height: auto;
-        /* width: 100%; problem*/
+    }
+}
+
+/* for small screen (small mobile) */
+
+@media screen and (max-width: 400px) {
+    .message_div h4{
+        font-size: 22px;
+        text-align: center;
+    }
+    .form_div form input{
+        font-size: 15px;
+    }
+    .form_div form textarea{
+        font-size: 15px;
     }
 }

@@ -31,3 +31,9 @@
     width: 80px;
     margin: 10px 0px;
 }
+
+@media screen and (max-width:400px) {
+    .skill_info p{
+        font-size: 13px;
+    }
+}
