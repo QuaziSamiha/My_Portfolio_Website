@@ -6,7 +6,7 @@ const MyImage = () => {
     return (
         <div className='intro_image'>
             <div className='img_frame'>
-                <img className='' src={proPic} alt="" />
+                <img src={proPic} alt="" />
             </div>
         </div>
     );

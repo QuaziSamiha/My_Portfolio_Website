@@ -6,6 +6,7 @@ import Home from './components/Home/Home/Home';
 import Navbar from './components/Navbar/Navbar';
 import Skills from './components/Skills/Skills';
 import Works from './components/Works/Works';
+import Particles from './components/Particles/Particles';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Works />
       <Contact />
       <Footer />
+      {/* <Particles /> */}
     </div>
   );
 }

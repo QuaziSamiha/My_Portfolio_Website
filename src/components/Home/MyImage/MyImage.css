@@ -1,22 +1,31 @@
 .intro_image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
 }
 
 .img_frame {
-    /* margin: 10px 15px; */
-    border-radius: 52% 48% 55% 45% / 43% 28% 72% 57% ;
-    background-color: goldenrod;
+    border-radius: 67% 33% 54% 46% / 0% 63% 37% 100%;
+    background-color: #cbd489;
 }
 
 .img_frame img {
-    height: 300px;
-    width: 400px;
+    height: 250px;
+    width: 300px;
 }
 
-@media screen and (min-width: 780px) {
-    .intro_image .img_frame{
-        margin-right: 90%;
+/* for small screen */
+
+@media screen and (max-width: 768px) {
+    .intro_image {
+        top: 530px;
+        left: 26%;
+    }
+}
+
+/* for large screen */
+
+@media screen and (min-width: 769px) {
+    .intro_image {
+        top: 230px;
+        right: 250px;
     }
 }

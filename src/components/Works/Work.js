@@ -10,6 +10,7 @@ const Work = ({ image, title, link, materials, features }) => {
             </div>
             <div className='link_feature'>
                 <a target='_blank' href={link}>Go To Site</a>
+                <br /> <br />
                 <button>Features</button>
             </div>
         </div>

@@ -2,18 +2,21 @@ header {
     height: 70px;
 }
 
-.nav_logo h3 {
-    margin: 0;
-    color: goldenrod;
-    font-family: cursive;
-    font-weight: bold;
-    letter-spacing: 2px;
-    text-shadow: 2px 2px rgb(182, 159, 31);
+#nav_header {
+    margin-bottom: -10px;
 }
 
 .nav_bar {
-    background-color: white;
-    box-shadow: 2px 5px 25px -5px gold;
+    background-color: goldenrod;
+}
+
+.nav_logo h3 {
+    margin: 0;
+    font-family: cursive;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #cbd489;
+    text-shadow: 3px 2px #2e2101;
 }
 
 .nav_menu ul {
@@ -28,7 +31,7 @@ header {
     padding-right: 20px;
     padding-bottom: 2px;
     font-weight: 700;
-    color: goldenrod;
+    color: #2e2101;
     position: relative;
 }
 
@@ -39,18 +42,12 @@ header {
     left: 0%;
     width: 0;
     height: 2px;
-    border-bottom: 2px solid goldenrod;
+    border-bottom: 2px solid #2e2101;
     transition: all 0.4s linear;
 }
 
 .nav_menu li a:hover:before {
     width: 74%;
-}
-
-@media (max-width: 768px) {
-    .nav_menu li:hover:before {
-        width: 10%;
-    }
 }
 
 .nav_btn {
@@ -59,15 +56,31 @@ header {
 
 .nav_btn span {
     font-size: 25px;
+    color: #2e2101;
     padding: 2px;
+    border: 1px solid #bcc485;
     border-radius: 5px;
-    box-shadow: 2px 2px 8px -1px goldenrod;
+    box-shadow: 2px 2px 8px -1px #bcc485;
 }
 
 /* for small screen */
 
 @media screen and (max-width: 768px) {
+    .nav_bar {
+        box-shadow: 2px 5px 25px #bcc485;
+    }
     .nav_menu li {
         margin: 10px 6px;
+    }
+}
+
+/* for large screen */
+
+@media screen and (min-width: 769px) {
+    .nav_menu li:hover:before {
+        width: 10%;
+    }
+    #nav_header{
+        margin-bottom: -21px;
     }
 }

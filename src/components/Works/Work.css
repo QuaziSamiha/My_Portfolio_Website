@@ -1,5 +1,5 @@
 .work_info {
-    margin: 6% 10%;
+    margin: 6% 14%;
     padding: 10px;
     border: 2px solid goldenrod;
     border-radius: 10px;
@@ -8,7 +8,10 @@
 
 .work_info h6 {
     text-align: center;
-    margin: 10px 0px;
+    margin: 12px 0px;
+    color: goldenrod;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 .work_img {
@@ -20,14 +23,22 @@
 .work_img img {
     height: 300px;
     width: 235px;
+    border: 2px solid goldenrod;
     border-radius: 8px;
     margin-bottom: 30px;
 }
 
+/* .work_img img:hover{
+    background-color: rgb(63, 48, 11);
+} */
+
 .link_feature {
-    display: flex;
+    text-align: center;
+    /* display: grid;
+    place-items: center; */
+    /* display: flex;
     justify-content:space-around;
-    align-items: center;
+    align-items: center; */
 }
 
 .link_feature a {

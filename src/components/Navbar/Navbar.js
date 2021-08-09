@@ -3,7 +3,7 @@ import './Navbar.css';
 
 const Navbar = () => {
     return (
-        <header>
+        <header id='nav_header'>
             <nav className='navbar nav_bar navbar-expand-md fixed-top'>
                 <div className='container'>
                     <div className='nav_logo'>
