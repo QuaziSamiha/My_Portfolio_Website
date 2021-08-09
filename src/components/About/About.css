@@ -1,3 +1,9 @@
+.about_section {
+    padding: 60px 0px;
+    box-shadow: 0 0 20px #e9dbbb;
+    margin-bottom: 150px;
+}
+
 .about_img {
     margin: 15%;
     display: flex;
@@ -8,8 +14,6 @@
 .img_div img {
     height: 400px;
     width: 500px;
-    /* border: 1px solid goldenrod; */
-    border-radius: 20px;
 }
 
 .about_text {
@@ -36,8 +40,9 @@
 /* for small screen (less than 768px) */
 
 @media screen and (max-width: 768px) {
-    .about_section {
-        margin-top: 500px;
+    .img_div img {
+        height: 300px;
+        width: 350px;
     }
 }
 
@@ -45,8 +50,10 @@
 
 @media screen and (min-width: 768px) {
     .about_section {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .about_img, .about_text {
+        margin-left: 120px;
     }
 }
