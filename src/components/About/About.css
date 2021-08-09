@@ -51,8 +51,6 @@
     .about_section {
         display: grid;
         grid-template-columns: auto auto;
-    }
-    .about_img, .about_text {
-        margin-left: 120px;
+        padding: 70px 20px;
     }
 }

@@ -10,22 +10,19 @@ const worksDetail = [
         image: bloodDonation,
         title: 'Blood Donation System',
         link: 'https://blood-donation-7fb25.web.app/',
-        materials: 'HTML, CSS, Bootstrap, ReactJS, NodeJS, MongoDB, FontAwesome Icon',
-        features: ''
+        materials: 'HTML, CSS, Bootstrap, ReactJS, NodeJS, MongoDB, FontAwesome Icon'
     },
     {
         image: foodDelivery,
         title: 'HomeMade Food Delivery',
         link: 'https://yummy-tummy-9e35d.web.app/',
-        materials: 'HTML, CSS, Bootstrap, ReactJS, NodeJS, MongoDB, FontAwesome Icon',
-        features: ''
+        materials: 'HTML, CSS, Bootstrap, ReactJS, NodeJS, MongoDB, FontAwesome Icon'
     },
     {
         image: travel,
         title: 'Travelling Agency',
         link: 'https://assignment-9-201ad.web.app/',
-        materials: 'HTML, CSS, Bootstrap, ReactJS, NodeJS, MongoDB',
-        features: ''
+        materials: 'HTML, CSS, Bootstrap, ReactJS, NodeJS, MongoDB'
     }
 ]
 
@@ -43,7 +40,6 @@ const Works = () => {
                             title={workInfo.title}
                             link={workInfo.link}
                             materials={workInfo.materials}
-                            features={workInfo.features}
                         />
                     )
                 }

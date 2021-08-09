@@ -2,7 +2,8 @@ import React from 'react';
 import './SocialMedia.css';
 import ReactDOM from 'react-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookSquare, faGithubSquare, faLinkedin, faWhatsappSquare } from "@fortawesome/free-brands-svg-icons";
+import { faFacebookSquare, faLinkedin, faWhatsappSquare } from "@fortawesome/free-brands-svg-icons";
+import { faMobileAlt } from '@fortawesome/free-solid-svg-icons';
 
 const SocialMedia = () => {
     return (
@@ -18,6 +19,18 @@ const SocialMedia = () => {
                 <div>
                     <a href="http://www.linkedin.com/in/quazi-samiha-tasnim" target="_blank" rel="noreferrer">
                         LinkedIn
+                    </a>
+                </div>
+            </div>
+            <div className='social_media_div'>
+                <div>
+                    <span className='contact_icon'>
+                        <FontAwesomeIcon icon={faMobileAlt} />
+                    </span>
+                </div>
+                <div>
+                    <a href="tel:+8801304396212" target="_blank" rel="noreferrer">
+                        Mobile 
                     </a>
                 </div>
             </div>
@@ -42,18 +55,6 @@ const SocialMedia = () => {
                 <div>
                     <a href="https://www.facebook.com/quazi.samiha.7" target="_blank" rel="noreferrer">
                         Facebook
-                    </a>
-                </div>
-            </div>
-            <div className='social_media_div'>
-                <div>
-                    <span className='contact_icon'>
-                        <FontAwesomeIcon icon={faGithubSquare} />
-                    </span>
-                </div>
-                <div>
-                    <a href="https://github.com/QuaziSamiha" target="_blank">
-                        Github
                     </a>
                 </div>
             </div>

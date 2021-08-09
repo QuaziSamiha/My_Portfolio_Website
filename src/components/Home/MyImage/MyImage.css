@@ -23,7 +23,7 @@
 
 @media screen and (max-width: 600px) {
     .intro_image{
-        top: 630px;
+        top: 600px;
         left: 15%;
     }
     .img_frame img{
@@ -37,6 +37,13 @@
 @media screen and (min-width: 769px) {
     .intro_image {
         top: 230px;
-        right: 250px;
+        left: 35%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .intro_image{
+        top: 230px;
+        left: 60%;
     }
 }

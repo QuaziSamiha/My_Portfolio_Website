@@ -73,9 +73,10 @@
     }
 }
 
-/* for small screen (small mobile) */
 
-@media screen and (max-width: 400px) {
+/* for small screen (small mobile to large mobile) */
+
+@media screen and (max-width: 425px) {
     .message_div h4{
         font-size: 22px;
         text-align: center;
