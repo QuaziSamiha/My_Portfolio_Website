@@ -80,6 +80,10 @@
     .work_info h6 {
         font-size: 16px;
     }
+    .img_animation {
+        height: 280px;
+        width: 180px;
+    }
     .work_img img {
         height: 280px;
         width: 180px;

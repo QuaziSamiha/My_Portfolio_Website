@@ -24,7 +24,7 @@ const Introduction = () => {
                 </button>
 
                 <button className='link_btn'>
-                    <a target='_blank' href="https://drive.google.com/file/d/1v_03PlEvOjbEIQgDZlOdiVXlAo1T--Du/view?usp=sharing" rel="noopener noreferrer">
+                    <a target='_blank' href="https://drive.google.com/file/d/1uvXfmvw2y18ctdXXdPtIo9RO2yC-uBah/view?usp=sharing" rel="noopener noreferrer">
                         Download CV
                     </a>
                 </button>
